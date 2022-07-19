@@ -5,13 +5,12 @@ function Card({ children, spacing ,  wrap  }) {
     gap: `${spacing * 0.25}rem`,
     flexWrap: wrap ? "wrap" : "nowrap",
   }
-  return <div style={style}>{children}</div>
+  return <div className="card" style={style}>{children}</div>
 }
 
 Card.propTypes = {
   spacing: PropTypes.number,
   wrap: PropTypes.bool,
-  direction: PropTypes.oneOf(["row"]),
 }
 Card.defaultProps={
   spacing:"2",
