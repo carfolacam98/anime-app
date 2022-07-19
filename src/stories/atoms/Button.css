@@ -1,0 +1,28 @@
+/* //quiero hacer temas */
+
+:root{
+    --primary-color:#fd9f47;
+    --secondary-color:#47fd90;
+}
+.button{
+    cursor: pointer;
+}
+.button-primary{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    border: none;
+}
+.button-primary:hover{
+    filter: brightness(0.9);
+    border-radius: 12px;    border:1px solid  var(--primary-color);
+}
+.button-secondary{
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    border: none;
+}
+.button-outline{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 12px;
+}
